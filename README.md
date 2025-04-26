@@ -10,6 +10,25 @@ This Streamlit application leverages the power of AI, specifically the `agno` li
 * **Web Search Integration:** Utilizes DuckDuckGo for the AI agents to fetch additional information if needed to create more informed plans.
 * **User-Friendly Interface:** A simple and intuitive Streamlit interface for easy input and plan generation.
 
+## 🚀 App Demo
+
+You can try out the live demo of the application here:
+
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://health-fitness-planner.streamlit.app)
+
+[https://health-fitness-planner.streamlit.app](https://health-fitness-planner.streamlit.app)
+
+
+## ⚙️ Dependencies
+
+* `streamlit`: For creating the web application interface.
+* `agno`: An AI agent framework for building intelligent agents.
+* `python-dotenv`: For loading environment variables (like the Google API key).
+* `google-generativeai`: The official Google Generative AI library.
+
+You can install all the necessary dependencies using the `requirements.txt` file.
+
+
 ## 🚀 How to Use
 
 1.  **Clone the Repository:**
@@ -37,6 +56,7 @@ This Streamlit application leverages the power of AI, specifically the `agno` li
 7.  **Generate Your Plan:** Click the "Generate Health Plan" button.
 8.  **View Your Personalized Plan:** The generated meal plan and workout routine, along with a holistic health strategy, will be displayed in the main area.
 
+
 ## ⚙️ Dependencies
 
 * `streamlit`: For creating the web application interface.
@@ -45,6 +65,7 @@ This Streamlit application leverages the power of AI, specifically the `agno` li
 * `google-generativeai`: The official Google Generative AI library.
 
 You can install all the necessary dependencies using the `requirements.txt` file.
+
 
 ## 💡 How It Works
 
@@ -56,6 +77,7 @@ This application utilizes the `agno` library to create three specialized AI agen
 
 The application uses Google's `gemini-2.0-flash-exp` model for the AI agents, providing fast and efficient responses.
 
+
 ## ➕ Further Enhancements
 
 * Allow users to specify more detailed dietary restrictions and preferences.
@@ -63,6 +85,7 @@ The application uses Google's `gemini-2.0-flash-exp` model for the AI agents, pr
 * Add options for generating more specific types of workouts (e.g., strength training, cardio).
 * Implement user accounts to save and manage personalized health plans.
 * Integrate with wearable devices for real-time activity and sleep data.
+
 
 ## 🙏 Contributing
 
