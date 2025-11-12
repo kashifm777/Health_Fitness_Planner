@@ -22,7 +22,7 @@ dietary_planner = Agent(
         "If necessary, search the web using DuckDuckGo for additional information.",
     ],
     tools=[DuckDuckGoTools()],
-    show_tool_calls=True,
+    # show_tool_calls=True,
     markdown=True
 )
 
@@ -44,7 +44,7 @@ fitness_trainer = Agent(
         "If necessary, search the web using DuckDuckGo for additional information.",
     ],
     tools=[DuckDuckGoTools()],
-    show_tool_calls=True,
+    # show_tool_calls=True,
     markdown=True
 )
 
