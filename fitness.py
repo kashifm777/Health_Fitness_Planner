@@ -11,7 +11,7 @@ os.getenv("GOOGLE_API_KEY")
 genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 dietary_planner = Agent(
-    model=Gemini(id="gemini-2.0-flash-exp"),
+    model=Gemini(id="gemini-2.5-flash"),
     description="Creates personalized dietary plans based on user input.",
     instructions=[
         "Generate a diet plan with breakfast, lunch, dinner, and snacks.",
